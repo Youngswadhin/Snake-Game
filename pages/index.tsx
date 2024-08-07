@@ -215,7 +215,8 @@ export default function SnakeGame() {
           snakePart.x === nextHeadPosition.x &&
           snakePart.y === nextHeadPosition.y
       )
-    ) gameOver()
+    )
+      gameOver()
 
     // Update state
     setPreviousVelocity({ ...velocity })
@@ -423,7 +424,6 @@ export default function SnakeGame() {
             <FontAwesomeIcon icon={['fas', 'arrow-down']} />
           </button>
         </div>
-
       </main>
       <footer>
         Copyright &copy;{' '}
