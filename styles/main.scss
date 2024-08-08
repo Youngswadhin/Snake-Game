@@ -195,13 +195,13 @@ footer {
   gap: 60px;
 }
 
-.mobile-controls .horizontal-controls button {
-  // background-color: #28A745; /* Secondary color */
-}
+// .mobile-controls .horizontal-controls button {
+//   // background-color: #28A745; /* Secondary color */
+// }
 
-.mobile-controls .horizontal-controls button:hover {
-  // background-color: #218838; /* Darker secondary color */
-}
+// .mobile-controls .horizontal-controls button:hover {
+//   // background-color: #218838; /* Darker secondary color */
+// }
 
 .mobile-controls button:active {
   transform: scale(0.9);
@@ -210,11 +210,11 @@ footer {
 @media (max-width: 767px) {
   /* CSS styles for screens smaller than 768px */
 
-  body {
-    // background-image: url(../public/snake-mobile.jpg);
-    // background-size: cover;
-    // background-repeat: no-repeat;
-  }
+  // body {
+  //   // background-image: url(../public/snake-mobile.jpg);
+  //   // background-size: cover;
+  //   // background-repeat: no-repeat;
+  // }
   main {
     width: 100%;
     margin: 10px;

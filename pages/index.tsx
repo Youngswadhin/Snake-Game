@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useInterval from '@use-it/interval'
-
 import { HeadComponent as Head } from 'components/Head'
 
 type Apple = {
