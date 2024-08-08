@@ -1,8 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useInterval from '@use-it/interval'
-import Image from 'next/image';
-import logo from '../public/snake-logo.png';
 
 import { HeadComponent as Head } from 'components/Head'
 
@@ -363,10 +361,10 @@ export default function SnakeGame() {
 
   return (
     <>
-    <div className="header">
-      <p>SNAKE GAME</p>
-      {/* <Image src={logo} className='logo' /> */}
-    </div>
+      <div className="header">
+        <p>SNAKE GAME</p>
+        {/* <Image src={logo} className='logo' /> */}
+      </div>
       <Head />
       <main>
         <canvas

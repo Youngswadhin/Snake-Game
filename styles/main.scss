@@ -14,22 +14,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header{
+.header {
   width: 240px;
   height: 60px;
   display: flex;
   // flex-direction: column;
   margin-bottom: 1rem;
-  p{
-    color:#07e925af ;
+  p {
+    color: #07e925af;
     font-size: 2rem;
     font-weight: 700;
     box-shadow: 10px 4px 12px rgba(50, 240, 101, 0.815);
-    box-sizing: border-box;
-    
+    // box-sizing: border-box;
   }
 }
-.snake-logo{
+.snake-logo {
   width: 20px;
   height: 20px;
 }
@@ -211,28 +210,26 @@ footer {
 @media (max-width: 767px) {
   /* CSS styles for screens smaller than 768px */
 
-  body{
+  body {
     // background-image: url(../public/snake-mobile.jpg);
     // background-size: cover;
     // background-repeat: no-repeat;
   }
- main {
-  width: 100%;
-  margin: 10px;
-  justify-content: center;
-  background-color: #0000008d;
-  border-radius: 6px;
-  border: 2px solid rgb(160, 157, 157);
-  box-shadow: 0px 4px 18px rgb(18, 38, 63);
-}
+  main {
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    background-color: #0000008d;
+    border-radius: 6px;
+    border: 2px solid rgb(160, 157, 157);
+    box-shadow: 0px 4px 18px rgb(18, 38, 63);
+  }
 
-
-.mobile-controls .control-btn { 
-  width: 60px;
-  height: 60px; 
-}
-.mobile-controls .horizontal-controls {
-  gap: 80px;
-}
-
+  .mobile-controls .control-btn {
+    width: 60px;
+    height: 60px;
+  }
+  .mobile-controls .horizontal-controls {
+    gap: 80px;
+  }
 }
