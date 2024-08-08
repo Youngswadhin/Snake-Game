@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useInterval from '@use-it/interval'
+import Image from 'next/image';
+import logo from '../public/snake-logo.png';
 
 import { HeadComponent as Head } from 'components/Head'
 
@@ -118,8 +120,8 @@ export default function SnakeGame() {
   }
 
   const drawSnake = (ctx: CanvasRenderingContext2D) => {
-    ctx.fillStyle = '#0170F3'
-    ctx.strokeStyle = '#003779'
+    ctx.fillStyle = '#07e925af'
+    ctx.strokeStyle = '#07e925af'
 
     fillRect(
       ctx,
@@ -361,6 +363,10 @@ export default function SnakeGame() {
 
   return (
     <>
+    <div className="header">
+      <p>SNAKE GAME</p>
+      {/* <Image src={logo} className='logo' /> */}
+    </div>
       <Head />
       <main>
         <canvas
